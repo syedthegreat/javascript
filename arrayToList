@@ -1,0 +1,8 @@
+# javascript
+ zones = ["zone1", "zone2", "zone3"];
+    // add each zone to the list string
+  for (var i = 0; i < zones.length; i++) {
+  list += zones[i] + "\n";
+}
+
+//alternatively .join can also be used to store string from array list list = zones.join("\n");
